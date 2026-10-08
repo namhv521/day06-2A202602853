@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "dataset": "data/kitti_mini",
+  "frames": [
+    "000001",
+    "000011",
+    "000049"
+  ],
+  "roi_xyz_m": [
+    0.0,
+    30.0,
+    -12.0,
+    12.0,
+    -3.0,
+    3.0
+  ],
+  "repeats": 20,
+  "warmup_per_config": 1,
+  "ransac_iterations": 300,
+  "ransac_probability": 1.0,
+  "ground_candidate_quantile": 0.35,
+  "max_ground_tilt_deg": 20,
+  "eps_m": 0.6,
+  "min_points": 8,
+  "python": "3.12.9",
+  "open3d": "0.20.0",
+  "numpy": "2.5.3",
+  "omp_num_threads": "1",
+  "openblas_num_threads": "1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "cpu_count": 12,
+  "timing": "perf_counter; ROI/filter/voxel + RANSAC + DBSCAN/AABB; excludes I/O, figures and occupancy",
+  "occupancy": "0.20m endpoint grid: 1=occupied, 0=unknown; no free-space inference",
+  "failure_source": "procedural synthetic geometry in low_scene; not KITTI ground truth"
+}

@@ -1,0 +1,4 @@
+distance_threshold,voxel_size,low_height_m,low_before_points,low_retained_points,low_detected,clusters,nearest_m,total_ms
+0.03,0.05,0.18,389,389,True,2,3.0,37.803800000119736
+0.08,0.05,0.18,389,333,True,2,3.0,34.54469999996945
+0.3,0.05,0.18,389,0,False,1,8.06225774829855,30.074000000013257
